@@ -3,26 +3,41 @@
 ---
 @charset "utf-8";
 
+@font-face {
+  font-family: 'dearJoe';
+  src:url('../fonts/dearJoe.otf'),
+  url('../fonts/dearJoe.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'Inconsolata';
+  src:url('../fonts/Inconsolata.otf'),;
+  font-weight: normal;
+  font-style: normal;
+}
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$brand-font-family: dearJoe, Helvetica, sans-serif;
+$base-font-family: Inconsolata, Helvetica, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:       #555;
+$background-color: #fff;
+$brand-color:      #81c9f0;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$rose-color:       #f08191;
+$rose-color-light: lighten($rose-color, 40%);
+$rose-color-light: lighten($rose-color, 40%);
+$rose-color-dark:  darken($rose-color, 5%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    1000px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
