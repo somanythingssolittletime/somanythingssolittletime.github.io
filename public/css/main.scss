@@ -4,22 +4,23 @@
 @charset "utf-8";
 
 @font-face {
-  font-family: 'dearJoe';
-  src:url('../fonts/dearJoe.otf'),
-  url('../fonts/dearJoe.ttf') format('truetype');
+  font-family: 'Inconsolata';
+  src:url('../fonts/Inconsolata.otf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Inconsolata';
-  src:url('../fonts/Inconsolata.otf'),;
+  font-family: 'Arvo-Bold';
+  src:url('../fonts/Arvo-Bold.ttf'),
+  url('../fonts/Arvo-Bold.eot') format('embedded-opentype'),
+  url('../fonts/Arvo-Bold.woff') format('woff');;
   font-weight: normal;
   font-style: normal;
 }
 
 // Our variables
-$brand-font-family: dearJoe, Helvetica, sans-serif;
+$brand-font-family: Arvo-Bold, Helvetica, sans-serif;
 $base-font-family: Inconsolata, Helvetica, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
