@@ -19,8 +19,16 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'dearJoe';
+  src:url('../fonts/dearJoe.otf'),
+  url('../fonts/dearJoe.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 // Our variables
-$brand-font-family: Arvo-Bold, Helvetica, sans-serif;
+$brand-font-family: dearJoe, Helvetica, sans-serif;
 $base-font-family: Inconsolata, Helvetica, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
@@ -32,10 +40,9 @@ $text-color:       #555;
 $background-color: #fff;
 $brand-color:      #81c9f0;
 
-$rose-color:       #f08191;
-$rose-color-light: lighten($rose-color, 40%);
-$rose-color-light: lighten($rose-color, 40%);
-$rose-color-dark:  darken($rose-color, 5%);
+$rose-color:       #ed2b55;
+$rose-color-light: #f56884;
+$rose-color-dark:  #d61e45;
 
 // Width of the content area
 $content-width:    1000px;
