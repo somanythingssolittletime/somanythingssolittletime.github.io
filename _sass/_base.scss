@@ -108,8 +108,8 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
+    color: $rose-color;
+    border-left: 4px solid $rose-color-light;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
     letter-spacing: -1px;
@@ -128,7 +128,7 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
+    border: 1px solid $rose-color-light;
     border-radius: 3px;
     background-color: #eef;
 }
@@ -156,8 +156,7 @@ pre {
 .wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
+    margin: 40px auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
@@ -198,7 +197,15 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: $rose-color;
         }
     }
+}
+
+.line {
+    height: 2px;
+    background: #E5E5E5;
+    max-width: 95%;
+    float: center;
+    margin: 0 auto;
 }
