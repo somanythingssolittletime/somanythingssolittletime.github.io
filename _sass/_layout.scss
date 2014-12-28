@@ -191,7 +191,7 @@
 
 .post-meta {
     font-size: $small-font-size;
-    color: $rose-color;
+    color: $brand-color;
 }
 
 .post-link {
@@ -215,6 +215,7 @@
         font-size: 36px;
     }
 }
+
 
 .post-content {
     margin-bottom: $spacing-unit;
@@ -242,4 +243,11 @@
             font-size: 18px;
         }
     }
+}
+
+#read-more {
+  a {
+    &:visited { color: $rose-color; }
+    &:hover { color: $brand-color; }
+  }
 }
