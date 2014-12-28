@@ -1,8 +1,7 @@
 /**
  * Site header
  */
-.site-header {
-    border-bottom: 1px solid $rose-color-light;
+.site-header {  
     min-height: 450px;
 
     // Positioning context for the mobile navigation icon
@@ -24,7 +23,7 @@
       color: $rose-color;
     }
     a {
-      &:hover {
+        &:hover {
         text-decoration: none;
         color: $rose-color-light;
       }
@@ -100,7 +99,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $rose-color-light;
+    background: $grey-color;
     padding: $spacing-unit 0;
 }
 
@@ -117,7 +116,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $rose-color;
+    color: $grey-color-light;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -170,7 +169,8 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: 0;
+    margin: 0 auto;
 }
 
 .page-heading {
@@ -183,20 +183,21 @@
 
     > li {
         margin-bottom: $spacing-unit;
+        max-width: 30%;
+        float: left;
+        padding: 15px;
     }
 }
 
 .post-meta {
     font-size: $small-font-size;
-    color: $rose-color;
+    color: $brand-color;
 }
 
 .post-link {
     display: block;
     font-size: 24px;
 }
-
-
 
 /**
  * Posts
@@ -214,6 +215,7 @@
         font-size: 36px;
     }
 }
+
 
 .post-content {
     margin-bottom: $spacing-unit;
@@ -241,4 +243,11 @@
             font-size: 18px;
         }
     }
+}
+
+#read-more {
+  a {
+    &:visited { color: $rose-color; }
+    &:hover { color: $brand-color; }
+  }
 }
