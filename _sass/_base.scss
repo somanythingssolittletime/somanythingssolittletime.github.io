@@ -107,12 +107,11 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $rose-color;
+    color: $brand-color;
     border-left: 4px solid $rose-color-light;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
     letter-spacing: -1px;
-    font-style: italic;
 
     > :last-child {
         margin-bottom: 0;
@@ -127,9 +126,8 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $rose-color-light;
     border-radius: 3px;
-    background-color: #eef;
+      background-color: #f7f7f7;
 }
 
 code {
@@ -138,7 +136,7 @@ code {
 
 pre {
     padding: 8px 12px;
-    overflow-x: scroll;
+    overflow-x: hidden;
 
     > code {
         border: 0;
