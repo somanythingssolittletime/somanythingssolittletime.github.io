@@ -212,6 +212,12 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    font-size: 16px;
+    text-align: justify;
+
+    .embedded {
+      text-align: center;
+    }
 
     h2 {
         font-size: 32px;
