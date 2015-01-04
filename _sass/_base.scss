@@ -8,6 +8,13 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+::selection {
+  background: $green-color-light;
+  color: #fff;
+}
+::-moz-selection {
+  background: $green-color-light;
+}
 
 
 /**
