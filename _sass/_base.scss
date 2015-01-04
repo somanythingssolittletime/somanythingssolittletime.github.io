@@ -97,7 +97,7 @@ a {
     }
 
     &:hover {
-        color: $rose-color;
+        color: $green-color;
     }
 }
 
@@ -108,7 +108,7 @@ a {
  */
 blockquote {
     color: $brand-color;
-    border-left: 4px solid $rose-color-light;
+    border-left: 4px solid $green-color-light;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
     letter-spacing: -1px;
@@ -194,7 +194,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $rose-color;
+            fill: $green-color;
         }
     }
 }

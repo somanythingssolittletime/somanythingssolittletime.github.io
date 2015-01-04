@@ -38,16 +38,17 @@ $base-line-height: 1.8;
 
 $spacing-unit:     30px;
 
-$text-color:       #555;
-$background-color: #fff;
-$brand-color:      #13ecb9;
+$text-color:       #727272;
+$background-color: #FFF;
+$brand-color:      #FF9311;
 
-$rose-color:       #ec1346;
-$rose-color-light: #e62c59;
-$rose-color-dark:  #d10735;
+$green-color:       #1ACBA9;
+$green-color-light: lighten($green-color, 10%);
+$green-color-dark:  darken($green-color, 10%);
 
-$grey-color:       #3D3D3D;
-$grey-color-light: #898989;
+$grey-color:         #535353;
+$grey-color-light:   lighten($grey-color, 20%);
+$grey-color-lighter: lighten($grey-color, 30%);
 
 // Width of the content area
 $content-width:    1000px;
