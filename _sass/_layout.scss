@@ -187,7 +187,12 @@
         max-width: 30%;
         float: left;
         padding: 15px;
-    }
+      
+      > h2 { 
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 0; }
+    }   
 }
 
 .post-meta {
@@ -198,6 +203,10 @@
 .post-link {
     display: block;
     font-size: 24px;
+}
+
+.post-cover {
+  max-width: 100%;
 }
 
 /**
