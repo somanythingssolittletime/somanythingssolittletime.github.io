@@ -2,7 +2,7 @@
 title: So many things, so little time
 email: contact@somanythings.com
 description: > # this means to ignore newlines until "baseurl:"
- >>>  Description comes here. <<<<
+ A place where we, Katyanna Moura e Bruno Henrique, can write about the things we love - let's put movies, music, food and trips on the list, just to start.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://somanythings.io" # the base hostname & protocol for your site
 twitter_username: BlogSoMany
