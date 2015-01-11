@@ -218,8 +218,7 @@
 
 @include media-query($on-laptop) {
     .post-box {
-        float: none;
-        max-width: 100%;
+        max-width: 45%;
     }
 }
 
