@@ -13,7 +13,7 @@
     float: center;
 
     &,
-    &:visited { 
+    &:visited {
       color: $green-color;
     }
     a {
@@ -29,7 +29,7 @@
     float: right;
     text-align: right;
     margin: 0 100px;
-  
+
     a:hover {
       color: $brand-color;
     }
@@ -112,7 +112,7 @@
 .social-media-list {
     list-style: none;
     margin-left: 0;
-  
+
     a {
       color: $grey-color-lighter;
       &:hover {
@@ -181,19 +181,19 @@
 .post-list {
     margin-left: 0;
     list-style: none;
+}
 
-    > li {
+    .post-box {
         margin-bottom: $spacing-unit;
         max-width: 30%;
         float: left;
         padding: 15px;
-      
-      > h2 { 
+
+      > h2 {
         font-weight: 600;
         margin-top: 10px;
         margin-bottom: 0; }
-    }   
-}
+    }
 
 .post-meta {
     font-size: $small-font-size;
@@ -208,6 +208,21 @@
 .post-cover {
   max-width: 100%;
 }
+
+@include media-query($on-palm) {
+    .post-box {
+        float: none;
+        max-width: 100%;
+    }
+}
+
+@include media-query($on-laptop) {
+    .post-box {
+        float: none;
+        max-width: 100%;
+    }
+}
+
 
 /**
  * Posts
