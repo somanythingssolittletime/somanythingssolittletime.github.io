@@ -1,4 +1,4 @@
 So Many Things, So Little Time
-==================================
+==============================
 
-A blog by @katyanna and @brunohenrique :D
+This blog is a shared thought box where Katyanna and Bruno write about life.
