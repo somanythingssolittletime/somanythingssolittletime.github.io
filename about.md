@@ -4,8 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+We're Katyanna,
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+25 yo, interested in most things, in love with a couple. Software Developer from Monday to Friday, sleeper on the weekends.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+and Bruno,
+
+27yo, Software Developer and mostly into Philosophy, Cinema, Literature and Education.
+
+We love so many musics, so many movies, so many series, so many places, so many things, and we want to talk about them somewhere. Right here.
