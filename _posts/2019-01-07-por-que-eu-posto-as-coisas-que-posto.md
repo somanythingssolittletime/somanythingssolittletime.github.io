@@ -25,4 +25,4 @@ Independentemente das inseguranças que tive e tenho na vida,  minha preocupaç�
 
 Depois de pensar sobre dedicadamente, acredito que eu tenha mais consciência sobre meu comportamento online e sinta menos culpa pela exposição. Algo que aprendi ser muito importante é permitir que as pessoas façam o que precisam para ficar de boa; contanto que não agrida ninguém, que mal tem?!
 
-Recomendo a auto reflexão a quem se interessar, viss. Achei ótimo (:
+Recomendo a auto reflexão a quem se interessar, viss.
