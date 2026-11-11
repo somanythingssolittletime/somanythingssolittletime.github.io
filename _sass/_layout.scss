@@ -10,7 +10,6 @@
     margin: 50px auto;
     padding:  20px;
     text-align: center;
-    float: center;
 
     &,
     &:visited {
@@ -34,10 +33,6 @@
       color: $brand-color;
     }
 
-    .menu-icon {
-        display: none;
-    }
-
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
@@ -57,35 +52,6 @@
         border-radius: 5px;
         text-align: right;
 
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $green-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
         .page-link {
             display: block;
             padding: 5px 10px;
@@ -103,13 +69,7 @@
     padding: $spacing-unit 0;
 }
 
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
-}
-
-.contact-list,
-.social-media-list {
+.contact-list {
     list-style: none;
     margin-left: 0;
 
@@ -149,11 +109,6 @@
         width: -webkit-calc(50% - (#{$spacing-unit} / 2));
         width:         calc(50% - (#{$spacing-unit} / 2));
     }
-
-    .footer-col- {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
 }
 
 @include media-query($on-palm) {
@@ -176,10 +131,6 @@
 .page-content {
     padding: 0;
     margin: 0 auto;
-}
-
-.page-heading {
-    font-size: 20px;
 }
 
 .post-list {
@@ -249,10 +200,6 @@
     margin-bottom: $spacing-unit;
     font-size: 16px;
     text-align: justify;
-
-    .embedded {
-      text-align: center;
-    }
 
     h2 {
         font-size: 32px;
