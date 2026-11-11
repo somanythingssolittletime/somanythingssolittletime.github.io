@@ -169,6 +169,10 @@
 /**
  * Page content
  */
+.page-wrap {
+    flex: 1 0 auto;
+}
+
 .page-content {
     padding: 0;
     margin: 0 auto;
