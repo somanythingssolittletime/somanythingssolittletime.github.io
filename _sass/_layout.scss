@@ -13,12 +13,12 @@
 
     &,
     &:visited {
-      color: $green-color;
+      color: $purple-color;
     }
     a {
         &:hover {
         text-decoration: none;
-        color: $green-color-light;
+        color: $purple-color-light;
       }
     }
 }
@@ -48,7 +48,7 @@
         top: 9px;
         right: 30px;
         background-color: $background-color;
-        border: 1px solid $green-color-light;
+        border: 1px solid $purple-color-light;
         border-radius: 5px;
         text-align: right;
 
@@ -65,7 +65,7 @@
  * Site footer
  */
 .site-footer {
-    background: $grey-color;
+    background: $footer-background-color;
     padding: $spacing-unit 0;
 }
 
@@ -74,16 +74,16 @@
     margin-left: 0;
 
     a {
-      color: $grey-color-lighter;
+      color: $footer-link-color;
       &:hover {
-        color: $green-color;
+        color: $purple-color;
       }
     }
 }
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color-light;
+    color: $footer-text-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -228,7 +228,7 @@
 
 #read-more {
   a {
-    &:visited { color: $green-color; }
+    &:visited { color: $purple-color; }
     &:hover { color: $brand-color; }
   }
 }

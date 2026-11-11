@@ -29,16 +29,17 @@ $base-line-height: 1.8;
 $spacing-unit:     30px;
 
 $text-color:       #727272;
-$background-color: #FFF;
+$background-color: #F3F2FB; // Rosé Pine "text" (#E0DEF4) at 40% on white
 $brand-color:      #FF9311;
 
-$green-color:       #1ACBA9;
-$green-color-light: lighten($green-color, 10%);
-$green-color-dark:  darken($green-color, 10%);
+// Rosé Pine "iris": Dawn variant as main, dark-theme variant as light
+$purple-color:       #907AA9;
+$purple-color-light: #C4A7E7;
 
-$grey-color:         #535353;
-$grey-color-light:   lighten($grey-color, 20%);
-$grey-color-lighter: lighten($grey-color, 30%);
+// Rosé Pine "text" and "muted" (dark theme), and Dawn "text"
+$footer-background-color: #E0DEF4;
+$footer-text-color:       #6E6A86;
+$footer-link-color:       #575279;
 
 // Width of the content area
 $content-width:    1000px;

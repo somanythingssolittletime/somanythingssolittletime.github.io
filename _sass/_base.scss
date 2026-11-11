@@ -13,11 +13,11 @@ dl, dd, ol, ul, figure {
 }
 
 ::selection {
-  background: $green-color-light;
+  background: $purple-color-light;
   color: #fff;
 }
 ::-moz-selection {
-  background: $green-color-light;
+  background: $purple-color-light;
 }
 
 
@@ -110,7 +110,7 @@ a {
     }
 
     &:hover {
-        color: $green-color;
+        color: $purple-color;
     }
 }
 
@@ -121,7 +121,7 @@ a {
  */
 blockquote {
     color: $brand-color;
-    border-left: 4px solid $green-color-light;
+    border-left: 4px solid $purple-color-light;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
     letter-spacing: -1px;
@@ -207,7 +207,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $green-color;
+            fill: $purple-color;
         }
     }
 }
