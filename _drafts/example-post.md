@@ -10,10 +10,10 @@ This is an example post to preview the styles. It lives in `_drafts/`, so it nev
 
 ## A second-level heading
 
-So many musics, so many movies, so many series, so many places. A longer paragraph shows how justified text wraps
+So many musics, so many movies, so many series, so many places. A longer paragraph shows how text wraps
 across lines and how the line height feels when reading a few sentences in a row.
 
-> A blockquote looks like this. It uses the brand colour and a purple border on the left.
+> A blockquote looks like this. It has a soft purple background and a purple border on the left.
 
 ### A third-level heading
 
