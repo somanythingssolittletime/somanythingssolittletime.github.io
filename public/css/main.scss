@@ -22,13 +22,14 @@
 // Our variables
 $brand-font-family: dearJoe, Helvetica, sans-serif;
 $base-font-family: gothambook, Helvetica, sans-serif;
-$base-font-size:   14px;
+$base-font-size:   17px;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.8;
+$base-line-height: 1.7;
 
 $spacing-unit:     30px;
 
-$text-color:       #727272;
+$text-color:       #575279; // Rosé Pine Dawn "text"
+$muted-color:      #797593; // Rosé Pine Dawn "subtle"
 $background-color: #F3F2FB; // Rosé Pine "text" (#E0DEF4) at 40% on white
 $brand-color:      #FF9311;
 
@@ -41,7 +42,10 @@ $footer-background-color: #E0DEF4;
 $footer-text-color:       #6E6A86;
 $footer-link-color:       #575279;
 
-// Width of the content area
+$code-background-color: #E0DEF4; // Rosé Pine "text" (dark theme)
+
+// Width of the content area, and of the text column in posts and pages
+$reading-width:    700px;
 $content-width:    1000px;
 
 $on-palm:          600px;
