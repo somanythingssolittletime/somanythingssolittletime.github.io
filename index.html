@@ -13,10 +13,10 @@ layout: default
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
 
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}</span>
 
         <p>
-          {{ post.excerpt | truncatewords: 20 }} <span id="read-more"><a href="{{ post.url }}">+</a></span>
+          {{ post.excerpt | strip_html | truncatewords: 20 }} <span id="read-more"><a href="{{ post.url }}">+</a></span>
         </p>
       </li>
 
